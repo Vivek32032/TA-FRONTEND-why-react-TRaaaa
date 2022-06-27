@@ -1,0 +1,11 @@
+.movie {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    align-items: center;
+    border: 1px dashed red;
+    margin: 1em;
+}
+li{
+    background-color: rgb(235, 191, 198);
+}

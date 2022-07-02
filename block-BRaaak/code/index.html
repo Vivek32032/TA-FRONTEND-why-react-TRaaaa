@@ -65,7 +65,9 @@
      return (
         <div className="w-1/3 border bg-green-300 p-5 rounded">
                     <div className="relative w-full">
-                        <img src={props.articleInfo.imageURL} alt="New York" className="h-60" />
+                        <div className="h-60"> 
+                             <img src={props.articleInfo.imageURL} alt="New York" className="w-full h-60" />
+                        </div>
                         <div className="w-16 h-16 text-white font-bold absolute bg-red-500 rounded-full right-5 top-5 flex flex-col justify-center items-center">
                             <span>{props.articleInfo.date.getDay()}</span>
                             <span>{months[props.articleInfo.date.getMonth()]}</span>
